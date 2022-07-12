@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TGL-Lecture3", "TGL-Lecture3\TGL-Lecture3.csproj", "{4B716E7C-1F8B-4B60-B8C0-76220D767693}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGL-Lecture3", "TGL-Lecture3\TGL-Lecture3.csproj", "{4B716E7C-1F8B-4B60-B8C0-76220D767693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TGL-Lecture3.Tests", "TGL-Lecture3.Tests\TGL-Lecture3.Tests.csproj", "{811E0475-84EF-44FA-B490-D81F8586BB27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4B716E7C-1F8B-4B60-B8C0-76220D767693}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B716E7C-1F8B-4B60-B8C0-76220D767693}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B716E7C-1F8B-4B60-B8C0-76220D767693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{811E0475-84EF-44FA-B490-D81F8586BB27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{811E0475-84EF-44FA-B490-D81F8586BB27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{811E0475-84EF-44FA-B490-D81F8586BB27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{811E0475-84EF-44FA-B490-D81F8586BB27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

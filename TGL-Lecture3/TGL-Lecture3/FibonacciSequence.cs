@@ -9,6 +9,8 @@ namespace TGL_Lecture3
     {
         public IEnumerable<int> Make(int degree)
         {
+            if (degree < 0)
+                throw new ArgumentException("Wrond degree");
             int prev = 0, current = 1, result;
             return Enumerable.Range(0, degree + 1).Select(x =>
             {
